@@ -1,0 +1,45 @@
+ol {
+	list-style-type: none;
+	font-family: arial;
+	height: 100vh;
+	background-color: #808080;
+}
+li {
+	width: 200px;
+	min-height: 50px;
+	background-color: #808080;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+li:nth-child(1) {
+	content: '';
+	background-image: url(icons/edit.png);
+
+}
+li:nth-child(2) {
+	content: '';
+	background-image: url(icons/favorites.png);
+}
+li:nth-child(3) {
+	content: '';
+	background-image: url(icons/history.png);
+}
+li:nth-child(4) {
+	content: '';
+	background-image: url(icons/security.png);
+}
+li:nth-child(5) {
+	content: '';
+	background-image: url(icons/settings.png);
+}
+a {
+	display: block;
+	height: 20px;
+	text-decoration: none;
+	padding: 20px 60px;
+	color: #f0e8d4;
+}
+li:hover {
+	background-color: #5e5e5e
+}
