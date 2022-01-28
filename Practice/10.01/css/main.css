@@ -1,0 +1,125 @@
+/*-HEADER------------------------------------------------------------------------------------------*/
+
+img {
+    width: 50px;
+}
+.header {
+    text-align: center;
+    color: #fff;
+    background-color: #1b5589;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff   ;
+  
+}
+a:hover{
+    text-decoration: none;
+    color: #ccc;
+}
+
+/*-MAIN------------------------------------------------------------------------------------------*/
+
+.home {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+}  
+.js {
+    text-align: left;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+/*.left   {
+   
+
+ 
+
+} */
+.inner{
+     background-color: rgba(224, 220, 220, 0.603);
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+#file {
+    display: none;
+}
+p {
+    margin: 0 0 0 30px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box_wrap {
+    display: flex;
+    width: 100%;
+}
+.box_wrap input{
+    margin-left:20px ;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.box {
+    width: 29%;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+.box h2 {
+    padding: 11px;
+    background-color: #aaa;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+
+}
+
+.box p:hover{
+    cursor: pointer;
+}
+::placeholder{
+    padding: 10px;  
+}
+.middle {
+    background-color: #37b0c1;
+    color: #fff;
+    border-radius: 4px;
+
+}
+.middle img{
+    width: 15px;
+    margin-left: 20px;
+}
+#my , #reset  {
+    display: none;
+}
+.down {
+    width: 50%;
+    padding: 10px 0 10px 10px;
+}
+.state > label {
+    display: flex;
+   border: 1px solid #fff;
+   border-radius: 4px;
+}
+.state >label >label{
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    border-left: 1px solid #fff;
+}
+.inner {
+
+}
